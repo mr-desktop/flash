@@ -1,0 +1,57 @@
+--conpuertas al iniciar la animación
+--fondo de la animacion = ciudad nocturna vectorizada y animada
+
+
+--Intro
+
+*línea del tiempo
+*herramientas
+*librería
+*alineaciones
+*las capas
+
+*fotogramas clave: los fotogramas clave son algo así como la hoja en la que se dibuja. estos se identifican por un punto negro en la línea del tiempo.
+
+-los fotogramas que no tienen este punto son simplemente una reproducción del fotograma clave anterior.
+
+-cuando un fotograma esta vacío este aparece con un punto blanco en la línea del tiempo.
+
+transformaciones
+- para hacer una transformación se nesecitan dos fotogramas (el dibujo al inicio y el dibujo en el que se va a tranformar) solo pueden ser vectores de flash (path) no pueden haber ninguna clase de objetos, textos o imagenes sino la transformación no se realizará.
+
+- las transformaciones aparecen en la línea del tiempo como el area verde y una línea indicando con una flecha el último fotograma. sí la línea no aparece es porque hay un objeto en uno de los dos fotogramas que no permite la transformación, en cambio aparece una línea discontinua en el area verde.
+
+movimiento
+
+-- proyecto 1
+-bola en movimiento
+-transformación de letras
+
+graficos
+botones
+movieclip
+agrupaciones
+* diferencias entre graficos y movieclip
+-los graficos siguen la misma línea de tiempo del main.
+cuando la línea del tiempo principal se detiene, el grafico se detiene.
+-los movieclip son completamente independientes.
+* diferencia entre objetos y agrupaciones
+-las agrupaciones al multiplicarse ocupan doble espacio en la memoria. en cambio los objetos ocupan solo un lugar en la biblioteca por lo tanto un objeto es más util para duplicarlo.
+
+-- proyecto 2
+-creación de un boton
+	<aguacate moviendo las manos>
+-creación de un movie clip
+	<rueda girando>
+-creacion de personaje
+	<aguacate caminando>
+-animando al personaje
+	<el mismo aguacate pero sin estar estatico>
+
+--Tema2
+-las mascaras
+-AS3, nombres de instancia
+-sonidos
+
+-- proyecto 3
+-boton para encender o apagar la música de fondo
